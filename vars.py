@@ -4,7 +4,7 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "27473563"))
 API_HASH = os.environ.get("API_HASH", "bc2ea0765ac96bb474891b0243f44390")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8478629931:AAHeptuXJfhw_W8TycCYwqrG2N4oNiJQ9T8")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8147246553:AAFGwEabGmu-yK9qmdDf_xOsFMBSc8BayOA")
 
 CREDIT = os.environ.get("CREDIT", "⌯ FʀᴏɴᴛMᴀɴ | ×͜× |")
 # MongoDB Configuration
@@ -17,7 +17,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6363345131"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "6363345131").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+zzgp8DUgaic3MzRl"
+PREMIUM_CHANNEL = "https://t.me/+KqoscIcGJhQ1MjE1"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/fh731v.jpg").split())) # Image Link For Default Thumbnail 
 
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 

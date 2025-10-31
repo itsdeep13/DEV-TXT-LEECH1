@@ -4,9 +4,9 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "27473563"))
 API_HASH = os.environ.get("API_HASH", "bc2ea0765ac96bb474891b0243f44390")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8280777980:AAH8H8NAI5a4xlk62VPWJmXkGM3UreRwXxE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8396249537:AAHSK66xbAmz2aZyVNVUBOzZoeXTSgbzMXY")
 
-CREDIT = os.environ.get("CREDIT", "⌯ FʀᴏɴᴛMᴀɴ | ×͜× |")
+CREDIT = os.environ.get("CREDIT", "⌯ Mighty atom | ×͜× |")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "uploaderbot")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://uploaderbot:uploaderbot@cluster0.mpesxpw.mongodb.net/?retryWrites=true&w=majority")  # Add your own atlas db
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
